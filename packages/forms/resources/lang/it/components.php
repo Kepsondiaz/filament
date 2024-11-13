@@ -12,10 +12,58 @@ return [
 
             'add' => [
                 'label' => 'Aggiungi a :label',
+
+                'modal' => [
+
+                    'heading' => 'Aggiungi a :label',
+
+                    'actions' => [
+
+                        'add' => [
+                            'label' => 'Aggiungi',
+                        ],
+
+                    ],
+
+                ],
             ],
 
             'add_between' => [
                 'label' => 'Inserisci tra i blocchi',
+
+                'modal' => [
+
+                    'heading' => 'Aggiungi a :label',
+
+                    'actions' => [
+
+                        'add' => [
+                            'label' => 'Aggiungi',
+                        ],
+
+                    ],
+
+                ],
+            ],
+
+            'edit' => [
+
+                'label' => 'Modifica',
+
+                'modal' => [
+
+                    'heading' => 'Modifica',
+
+                    'actions' => [
+
+                        'save' => [
+                            'label' => 'Salva',
+                        ],
+
+                    ],
+
+                ],
+
             ],
 
             'delete' => [
@@ -418,6 +466,31 @@ return [
 
     'tags_input' => [
         'placeholder' => 'Nuovo tag',
+    ],
+
+    'text_input' => [
+
+        'actions' => [
+
+            'hide_password' => [
+                'label' => 'Nascondi password',
+            ],
+
+            'show_password' => [
+                'label' => 'Mostra password',
+            ],
+
+        ],
+
+    ],
+
+    'toggle_buttons' => [
+
+        'boolean' => [
+            'true' => 'Si',
+            'false' => 'No',
+        ],
+
     ],
 
     'wizard' => [

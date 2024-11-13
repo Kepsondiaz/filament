@@ -13,6 +13,9 @@ return [
             'file' => [
                 'label' => 'File',
                 'placeholder' => 'Carica un file CSV',
+                'rules' => [
+                    'duplicate_columns' => '{0} Il file non deve contenere più di un\'intestazione di colonna vuota.|{1,*} Il file non deve contenere intestazioni di colonna duplicate: :columns.',
+                ],
             ],
 
             'columns' => [
@@ -72,6 +75,7 @@ return [
         'file_name' => 'import-:import_id-:csv_nome-righe-fallite',
         'error_header' => 'errore',
         'system_error' => 'Errore di sistema, per favore contatta il supporto.',
+        'column_mapping_required_for_new_record' => 'La colonna :attribute non è stata mappata a una colonna nel file, ma è richiesta per la creazione di nuovi record.',
     ],
 
 ];
