@@ -12,10 +12,46 @@ return [
 
             'add' => [
                 'label' => 'Tambahkan :label',
+                'modal' => [
+                    'heading' => 'Tambahkan :label',
+
+                    'actions' => [
+
+                            'add' => [
+                                'label' => 'Tambahkan',
+                            ],
+                    ],
+                ],
             ],
 
             'add_between' => [
                 'label' => 'Sisipkan',
+                'modal' => [
+                    'heading' => 'Sisipkan :label',
+
+                    'actions' => [
+
+                            'add' => [
+                                'label' => 'Sisipkan',
+                            ],
+                    ],
+                ],
+            ],
+
+            'edit' => [
+
+                'label' => 'Ubah',
+                
+                'modal' => [
+                    'heading' => 'Ubah :label',
+
+                    'actions' => [
+
+                            'save' => [
+                                'label' => 'Simpan',
+                            ],
+                    ],
+                ],
             ],
 
             'delete' => [
